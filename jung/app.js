@@ -10,7 +10,7 @@ const connection = mysql.createConnection({
   host: "localhost",
   user: "root",
   password: "1216",
-  database: "shop"
+  database: "cart"
 });
 
 app.prepare().then(() => {
