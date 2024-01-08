@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Link href="/input">input</Link>
+        <Link href="/Login">Login</Link>
         {children}
       </body>
     </html>
