@@ -21,13 +21,13 @@ export default function input() {
       });
 
       if (respones.ok) {
-        setMassage("회원가입이 완료되었습니다.");
+        setMassage("가입이 완료되었습니다.");
       } else {
-        setMassage("회원가입에 실패했습니다.");
+        setMassage("가입에 실패했습니다.");
       }
     } catch (error) {
       console.error("Error:", error);
-      setMassage("회원가입 중 오류가 발생했습니다.");
+      setMassage("가입 중 오류가 발생했습니다.");
     }
   };
 
